@@ -1,0 +1,68 @@
+body {
+  font-size: 14px;
+  font-family: "Helvetica Neue",Helvetica,Arial,sans-serif;
+  line-height: 1.42857143;
+  color: #333;
+  background-color: #fff;
+}
+ol, ul {
+  list-style: none;
+}
+a {
+  text-decoration: none;
+  color: #999;
+}
+a:hover {
+  color: #333;
+}
+
+/********* Layout ***********/
+#header h1 {
+  font-size: 60px;
+  text-align: center;
+}
+#content {
+  padding: 0 30px;
+  height: 100%;
+}
+#content .main-content {
+  width: 70%;
+  float: left;
+}
+#content .side-nav {
+  width: 30%;
+  float: left;
+}
+
+
+/********** Component: Component template *************/
+.component-template {
+  margin-bottom: 15px;
+}
+.component-template-header {
+  font-size: 24px;
+  margin: 0;
+}
+.component-template-description {
+  margin: 0;
+  margin-bottom: 5px;
+}
+.component-template-demo {
+  min-height: 50px;
+  border: 1px solid #e1e1e8;
+  margin-bottom: 5px;
+  border-radius: 5px;
+}
+.component-template-code {
+  background-color: #f7f7f9;
+  border: 1px solid #e1e1e8;
+  min-height: 50px;
+  border-radius: 5px;
+}
+.component-template-code pre {
+  white-space: nowrap;
+  margin: 0;
+}
+.component-template-code pre code {
+  white-space: pre-wrap;
+}
